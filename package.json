@@ -1,0 +1,14 @@
+{
+  "name": "stuff-frontend",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "buefy": "^0.9.13",
+    "gridsome": "^0.7.0"
+  }
+}
