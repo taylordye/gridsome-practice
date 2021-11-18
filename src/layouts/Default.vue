@@ -1,5 +1,5 @@
 <template>
-<div class="layout">
+<div class="container">
   <b-navbar>
       <template #brand>
           <b-navbar-item>

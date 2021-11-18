@@ -9,9 +9,9 @@
     </section>
 
   <div class="container">
-    <div class="columns">
-      <div class="column">
-        <div class="card mb-5" v-for="edge in $page.users.edges" :key="edge.node.id">
+    <div class="columns is-multiline">
+      <div class="column is-4" v-for="edge in $page.users.edges" :key="edge.node.id">
+        <div class="card m-4">
           <div class="card-content">
             <div class="media">
               <div class="media-left">
